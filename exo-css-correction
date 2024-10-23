@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    }
+
+    h2{
+        color: blue;
+	}
+
+	p{
+	    background: red;
+	        font-size: 30px;
+		    font-weight: bold;
+		    }
+
+		    .semaine{
+		        text-decoration: underline;
+			}
+
+			ol, ul{
+			    font-style: italic;
+			    }
