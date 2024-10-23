@@ -30,6 +30,6 @@ img[alt="la-tartine"] {
     border-radius : 50%;
 }
 
-section:last-of-type :hover{
+section:last-of-type >p:hover{
     color:  rgb(107, 244, 21);
 }
