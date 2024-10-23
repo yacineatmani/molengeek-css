@@ -18,7 +18,7 @@ section:nth-child(3) ul {
     color: red; /* Met le texte en rouge */
 }
 
-section:nth-child(4) li:nth-child(2) a {
+section:nth-child(4) > ul > li > a {
     font-size: 25px;
 }
 
