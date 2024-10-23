@@ -1,0 +1,37 @@
+
+section {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+
+section:first-child h4 {
+    color: blue;
+}
+
+section:nth-child(2){
+border-bottom: 5px solid red;
+}
+
+section:nth-child(3) h3,
+section:nth-child(3) ul {
+    color: red; /* Met le texte en rouge */
+}
+
+section:nth-child(4) li:nth-child(2) a {
+    font-size: 25px;
+}
+
+section:nth-child(5) h3 + span {
+    color:blue;
+}
+section:nth-child(6) >img {
+    width : 150px; height : 150px;
+    border: 2px solid black;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+}
+section:nth-child(7) :hover{
+    color:  rgb(107, 244, 21);
+}
